@@ -11,7 +11,7 @@ function About() {
   return (
     <div
       data-aos="zoom-in"
-      data-aos-anchor-placement="center-bottom"
+      data-aos-anchor-placement="center"
       className="about-content"
     >
       <h1>About Me</h1>
