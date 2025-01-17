@@ -1,19 +1,10 @@
-import { useEffect } from "react";
 import React from "react";
 import "../styles/About.css";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 function About() {
-  useEffect(() => {
-    AOS.init();
-  });
   return (
-    <div
-      data-aos="zoom-in"
-      data-aos-anchor-placement="center"
-      className="about-content"
-    >
+    <div className="about-content">
       <h1>About Me</h1>
       <p className="about-info">
         Hello! I'm Outhman Bahmmou, an 18-year-old junior full-stack developer,
