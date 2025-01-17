@@ -7,9 +7,12 @@ function Contact() {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  const handleSubmit = () => {};
+
   return (
     <div data-aos="fade-up" className="contact-container">
-      <form className="form-section">
+      <form onSubmit={handleSubmit} className="form-section">
         <h2>Contact Me</h2>
         <input type="text" required placeholder="Name..." />
         <input type="email" required placeholder="Email..." />
